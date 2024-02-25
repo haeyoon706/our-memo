@@ -1,24 +1,24 @@
 export class Memo {
   constructor(
+    id,
     title,
     content,
     imageUri,
     backgroundColor,
     roomId,
-    memoId,
     writerId,
-    readId,
+    readerId,
     createdAt,
     updatedAt
   ) {
+    this.id = id;
     this.title = title;
     this.content = content;
     this.imageUri = imageUri;
     this.backgroundColor = backgroundColor;
     this.roomId = roomId;
-    this.memoId = memoId;
     this.writerId = writerId;
-    this.readId = readId;
+    this.readerId = readerId;
     this.createdAt = createdAt;
     this.updatedAt = updatedAt;
   }
